@@ -26,8 +26,29 @@ management and GIS, we bring the right technology to every challenge." />
                 Key Benefits:
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-7">
-                <div>
-                  
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>Custom application development</h3>
+                </div>
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>Enterprise software solutions</h3>
+                </div>
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>Mobile app development</h3>
+                </div>
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>API development & integration</h3>
+                </div>
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>Legacy system modernization</h3>
+                </div>
+                <div className='flex'>
+                  <img src="/images/check-icon.jpg" alt="" />
+                  <h3 className='text-sm text-gray-500 px-2'>Agile development methodology</h3>
                 </div>
               </div>
               <Link href="/services/software-development" className="bg-red-500 hover:bg-red-600 text-white
