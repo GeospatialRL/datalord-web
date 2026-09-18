@@ -1,178 +1,178 @@
 import React from 'react'
-import Link from "next/link";
+import Link from 'next/link'
 import Banner2 from '../../components/Banner2'
 
-export default function SoftwareDev() {
+export default function portalManagement() {
     return (
         <>
             <Banner2
-                bannerDescription="Services/Software-development"
-                bannerTitle="Software Development"
+                bannerDescription=" Services/Scanning Bureau Services "
+                bannerTitle="Scanning Bureau Services"
             />
             <section>
                 <div className='w-[85%] mx-auto my-10'>
-                    <h2 className='text-xl font-bold  mb-4'>
-                        DataLord Technologies: Leading Software Development
-                        Company in Lagos, Nigeria
+                    <h2 className='text-xl font-bold text-[#0D1B2A] mb-4'>
+                        DataLord Technologies: Professional Document Scanning and Digitisation Services
                     </h2>
                     <p className='text-gray-500 text-sm leading-relaxed mb-4'>
-                        At DataLord Technologies, we specialize in designing and
-                        developing customized software solutions to meet the unique
-                        needs of businesses across various industries. Whether
-                        you're a startup looking for a scalable solution or an
-                        enterprise in need of complex system integrations, we ensure
-                        that our projects align with your budget and
-                        timeline—without ever compromising on quality.
-                    </p>
-                    <p className='text-gray-500 text-sm leading-relaxed'>
-                        Moreover, our team of highly skilled developers is proficient
-                        in the latest programming languages, frameworks, and
-                        cutting-edge technologies. As a result, we consistently
-                        deliver top-tier software solutions tailored to businesses of
-                        all sizes. From desktop and mobile applications to
-                        cloud-based systems and AI-powered innovations, we help
-                        businesses stay ahead in today's fast-paced digital
-                        landscape.
+                        DataLord Technologies is a premier document scanning company and trusted scanning bureau in Nigeria, known for providing secure and reliable services to both public and private organizations. We specialize in transforming physical documents into high-quality digital formats, ensuring efficiency, accessibility, and security for all your document management needs. Our onsite storage facilities and advanced scanning technologies set us apart as industry leaders in document digitization.
                     </p>
                 </div>
             </section>
 
             <section className='border-y border-gray-200 py-6 mb-8'>
                 <div className='w-[85%] mx-auto flex items-center 
-                                justify-between flex-wrap gap-6'>
+                                justify-between gap-6'>
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-10'>100%</p>
+                        <p className='text-red-500 text-2xl font-bold pl-20'>
+                            3M+
+                        </p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Client satisfaction rate
+                            Documents digitized monthly
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-5'>
-                            End-to-End
+                        <p className='text-red-500 text-2xl font-bold pl-25'>
+                            A0
                         </p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Complete solution delivery
+                            Largest document size we support
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-5'>
-                            All Platforms
+                        <p className='text-red-500 text-2xl font-bold pl-10'>
+                            99%
                         </p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Web, mobile, cloud, desktop
+                            OCR accuracy rate
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-15'>Agile</p>
+                        <p className='text-red-500 text-2xl font-bold pl-20'>24hr</p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Iterative development approach
+                            Average turnaround for urgent projects
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/*  Wrapping div element */}
-            <div className="flex gap-10 w-[85%] mx-auto mb-16">
-                {/*  LEFT side */}
+            <div className="flex gap-10 w-[90%] mx-auto mb-16">
                 <div className="flex flex-col w-[68%]">
-                    {/* Services section 0ooo*/}
+                    {/* Wrapping DIV */}
                     <section className=" mb-10 ">
+                        <h2 className="text-2xl font-bold text-[#0D1B2A] mb-6">
+                            Services
+                        </h2>
                         <div className="flex mb-5">
+
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Custom Application Development
+                                    Comprehensive Scanning Solutions
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Fully tailored software built from the ground up
-                                    to address specific business challenges.
+                                    350+ images per minute, 3M+ captured monthly,  from small to large-scale archiving projects.
                                 </p>
                             </div>
 
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Mobile App Development
+                                    Bureau Management Excellence
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Cross-platform and native applications for iOS
-                                    and Android with intuitive UX.
+                                    Meticulous quality checks, secure audit trails, and flexible output in client-specific formats.
                                 </p>
                             </div>
-
                         </div>
 
                         <div className="flex mb-5">
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Enterprise Software Solutions
+                                    Industry-Specific Solutions
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Scalable, secure enterprise-grade systems
-                                    designed to grow alongside your organisation.
+                                    Tailored scanning solutions for banking, healthcare, telecoms, manufacturing, and government sectors.
                                 </p>
                             </div>
-
                             <div className="w-1/2 px-6 py-6 border-l border-red-500 ">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    API Development & Integration
+                                    Security & Quality
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Seamless integration between your existing tools,
-                                    third-party platforms & new systems.
+                                    Accredited, secure, and reliable — strict data protection protocols on every project.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="flex">
+                        <div className="flex mb-5">
                             <div className="w-1/2 border-l border-red-400 
                                             px-6 py-6">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Legal System Modernisation
+                                    Indexing and Categorization
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We evaluate and upgrade outdated systems,
-                                    restructuring & migrating to modern stacks.
+                                    Organizing scanned files for easy retrieval and use.
                                 </p>
                             </div>
-
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2 ">
-                                    Agile Methodology
+                                    Data Backup and Archiving
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Iterative sprints with continuous client
-                                    involvement, ensuring proper delivery.
+                                    Ensuring long-term preservation and disaster recovery.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="flex mb-5">
+                            <div className="w-1/2 border-l border-red-400 
+                                            px-6 py-6">
+                                <p className="font-semibold text-[#0D1B2A] 
+                                              text-sm mb-2">
+                                    Optical Character Recognition
+                                </p>
+                                <p className="text-gray-500 text-xs leading-relaxed">
+                                    Converting scanned documents into editable and searchable formats.
+                                </p>
+                            </div>
+                            <div className="w-1/2 border-l border-red-400 
+                                            px-6 py-6">
+                                <p className="font-semibold text-[#0D1B2A] 
+                                              text-sm mb-2">
+                                    Document Shredding
+                                </p>
+                                <p className="text-gray-500 text-xs leading-relaxed">
+                                    Providing secure disposal of physical copies post-digitization.
                                 </p>
                             </div>
                         </div>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold  mb-6">
-                            Our Process
+                        <h2 className="text-2xl font-bold text-[#0D1B2A] mb-6">
+                            What we offer
                         </h2>
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 01
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Discovery & Requirements
+                                    High-Volume Expertise
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We conduct detailed assessments to understand
-                                    your needs, goals & constraints.
+                                    Proven capability in handling complex, large-scale scanning projects with precision and efficiency.
                                 </p>
                             </div>
                         </div>
@@ -180,17 +180,16 @@ export default function SoftwareDev() {
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 02
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Design & Architecture
+                                    Advanced Technology
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Our experts craft user-centric designs and robust
-                                    system architecture tailored to your use case.
+                                    Rapid, high-quality output powered by industry-leading scanning equipment and software.
                                 </p>
                             </div>
                         </div>
@@ -198,141 +197,134 @@ export default function SoftwareDev() {
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 03
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Development & Testing
+                                    Secure & Scalable Solutions
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Leveraging cutting-edge tools, we build and
-                                    rigorously test your application at every stage.
+                                    Tailored solutions built around your needs — with robust data protection at every stage.
                                 </p>
                             </div>
                         </div>
 
                         <div className="flex items-start gap-5 py-5">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 04
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Deployment & Support
+                                    Proven Track Record
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We handle hosting & provide ongoing maintenance,
-                                    updates & training post-launch.
+                                    A diverse clientele across multiple industries, backed by a commitment to innovation and excellence.
                                 </p>
                             </div>
                         </div>
                     </section>
                 </div>
 
-                <div className="w-[32%] flex flex-col gap-6 pt-1">
-                    <div className="bg-gray-50 rounded-sm p-5">
-                        <h4 className="text-red-500 font-bold text-xs mb-4">
-                            TECHNOLOGIES
+                {/*  RIGHT SIDE 0ooooo */}
+                <div className="w-[32%] flex flex-col gap-6 pt-5">
+                    <div className="bg-gray-50 rounded-sm p-6 mt-15">
+                        <h4 className="text-red-500 font-bold text-xs uppercase mb-4">
+                            DOCUMENT TYPES WE HANDLE
                         </h4>
                         <ul className="space-y-2.5">
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Frontend: React, Vue
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Legal & court documents
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Backend: .NET, Node.js
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Historical archives & records
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Mobile: React Native, Flutter
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Engineering blueprints (up to A0)
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Database: SQL Server, MongoDB
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Medical records & patient files
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Cloud: Azure, AWS
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Financial & accounting records
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                DevOps: CI/CD, Docker
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                HR & personnel files
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                AI/ML: TensorFlow, OpenAI
-                            </li>
-                            <li className="flex items-center gap-2 
-                                           text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Architecture: Microservices
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Government & public records
                             </li>
                         </ul>
                     </div>
 
                     <div className="bg-gray-50 rounded-sm p-6">
-                        <h4 className="text-red-500 font-bold text-xs mb-4">
-                            INDUSTRIES SERVED
+                        <h4 className="text-red-500 font-bold text-xs uppercase mb-4">
+                            Industries Served
                         </h4>
                         <ul className="space-y-2.5">
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Government & Public Sector
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Banking & Finance
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Healthcare
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Legal & Judiciary
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Education
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Telecoms and Manufacturing
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
+                                <span className="w-1.5 h-1.5 rounded-full 
                                                  bg-red-400" />
                                 Information & Technology
                             </li>
@@ -341,41 +333,39 @@ export default function SoftwareDev() {
                 </div>
             </div>
 
-            <section>
-                <div className="w-[85%] mx-auto mb-5">
-                    <h2 className="text-xl font-bold  mb-8">
+            <section className=" mb-5 ">
+                <div className="w-[90%] mx-auto">
+                    <h2 className="text-xl font-bold text-[#0D1B2A] mb-8">
                         Related Services
                     </h2>
                     <div className="flex gap-6">
                         <div className="flex-1 border border-gray-200 
                                         rounded-lg p-6">
                             <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
-                                <img src="/images/dms-icon.jpg" alt="" />
+                                <img src="/images/gis-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
-                                Document Management System
+                                GIS and Remote Sensing Consultancy
                             </p>
                             <p className="text-gray-500 text-xs leading-relaxed 
                                           mb-4">
-                                Comprehensive document management systems to
-                                organise, secure, and streamline your document
-                                workflows.
+                                Our team is highly skilled in GIS and remote sensing techniques with over twenty-five years of experience.
                             </p>
                             <Link
-                                href="/services/document-management"
+                                href="/services/gis-remote"
                                 className="text-red-500 text-xs font-semibold 
                                            hover:underline"
                             >
                                 Learn more →
                             </Link>
                         </div>
-                        <div className="flex-1 border border-gray-200 
-                                        rounded-lg p-6">
+
+                        <div className="flex-1 border border-gray-200 rounded-lg p-6">
                             <div className='mb-5 flex h-12 w-12 items-center justify-center rounded-lg '>
                                 <img src="/images/transformation-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
                                 Digital Transformation
                             </p>
@@ -396,20 +386,18 @@ export default function SoftwareDev() {
                         <div className="flex-1 border border-gray-200 
                                         rounded-lg p-6">
                             <div className='mb-5 flex h-12 w-12 items-center justify-center rounded-lg '>
-                                <img src="/images/portal-icon.jpg" alt="" />
+                                <img src="/images/document-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
-                                Portal Management Systems
+                                Document Management System
                             </p>
                             <p className="text-gray-500 text-xs leading-relaxed 
                                           mb-4">
-                                Scalable cloud infrastructure and enterprise portals
-                                designed for performance, security, and user
-                                experience.
+                                Comprehensive document management systems to organize, secure, and streamline your document workflows.
                             </p>
                             <Link
-                                href="/services/portal-management"
+                                href="/services/scanning-services"
                                 className="text-red-500 text-xs font-semibold 
                                            hover:underline"
                             >

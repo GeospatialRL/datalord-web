@@ -7,10 +7,11 @@ export default function Services() {
     <>
       <Banner bannerTitle="Services" bannerDescription="From software development and digital transformation to document 
 management and GIS, we bring the right technology to every challenge." />
-      <section className="py-10 px-30 justify-center">
-        {/* SOFTWARE DEVELOPMENT  */}
-        <div className="max-w-8xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
+
+      {/* SOFTWARE DEVELOPMENT  */}
+      <section className="py-10 px-10 W-[93%] mx-auto border">
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
                 <img src="images/dev-icon.jpg" alt="" />
@@ -31,12 +32,12 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-sm text-gray-500 px-2'>Custom application development</h3>
                 </div>
                 <div className='flex'>
-                  <img src="/images/check-icon.jpg" alt="" />
+                  <img src="/images/check-icon.jpg" alt=""  />
                   <h3 className='text-sm text-gray-500 px-2'>Enterprise software solutions</h3>
                 </div>
-                <div className='flex'>
-                  <img src="/images/check-icon.jpg" alt="" />
-                  <h3 className='text-sm text-gray-500 px-2'>Mobile app development</h3>
+                <div className='flex space-x-2'>
+                  <img src="/images/check-icon.jpg" alt=""  />
+                  <h3 className='text-sm text-gray-500'>Mobile app development</h3>
                 </div>
                 <div className='flex'>
                   <img src="/images/check-icon.jpg" alt="" />
@@ -47,7 +48,7 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-sm text-gray-500 px-2'>Legacy system modernization</h3>
                 </div>
                 <div className='flex'>
-                  <img src="/images/check-icon.jpg" alt="" />
+                  <img src="/images/check-icon.jpg " alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>Agile development methodology</h3>
                 </div>
               </div>
@@ -56,6 +57,9 @@ management and GIS, we bring the right technology to every challenge." />
                 Learn More
               </Link >
             </div>
+
+
+            
             <div>
               <img
                 src="/images/laptop.jpg"
@@ -68,9 +72,9 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DOCUMENT MANAGEMENT SYSTEM */}
-      <section className="py-16 px-30 ">
-        <div className="max-w-8xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
+      <section className="py-16 px-10 w-[93%] mx-auto border border-red-500">
+        <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
               <img
                 src="/images/dms.jpg"
@@ -102,7 +106,7 @@ management and GIS, we bring the right technology to every challenge." />
                 </div>
                 <div className='flex space-x-2'>
                   <img src="/images/check-icon.jpg" alt='' />
-                  <h3 className='text-sm text-gray-500'>Advanced search capabilities</h3>
+                  <h3 className='text-sm text-gray-500'>Mobile app development</h3>
                 </div>
                 <div className='flex space-x-2'>
                   <img src="/images/check-icon.jpg" alt='' />
@@ -117,18 +121,20 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-sm text-gray-500'>Compliance & audit trails</h3>
                 </div>
               </div>
-              <button className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
+              <Link href="/services/document-management" className="bg-red-500 hover:bg-red-600 text-white
+               text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
-              </button>
+              </Link >
             </div>
           </div>
         </div>
       </section>
+    
 
       {/* GIS & REMOTE CONSULTING */}
-      <section className="py-16 px-30 justify-center">
-        <div className="max-w-8xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
+      <section className="py-16 px-10 w-[93%] mx-auto border ">
+        <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
                 <img src="images/gis-icon.jpg" alt="" />
@@ -143,19 +149,19 @@ management and GIS, we bring the right technology to every challenge." />
                 Key Benefits:
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-7">
-                <div className='flex'>
+                <div className='flex items-start '>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm px-2 text-gray-500'>Geospatial data analysis</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start '>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm px-2 text-gray-500'>Location intelligence solutions</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start '>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm px-2 text-gray-500'>Environmental & land-use analysis</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm px-2 text-gray-500'>Mapping & visualization</h3>
                 </div>
@@ -168,9 +174,9 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-sm px-2 text-gray-500'>Geospatial data analysis</h3>
                 </div>
               </div>
-              <button className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
+              <Link href="/services/gis-remote" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
-              </button>
+              </Link>
             </div>
             <div>
               <img
@@ -184,8 +190,8 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* PORTAL MANAGEMENT SYSTEM  */}
-      <section className="py-16 px-30 justify-center">
-        <div className="max-w-8xl mx-auto">
+      <section className="py-16 px- w-[93%] mx-auto border border-blue-500">
+        <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
               <img
@@ -233,17 +239,17 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-gray-500 text-sm px-2'>Performance optimization</h3>
                 </div>
               </div>
-              <button className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
+              <Link href="/services/portal-management" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
       {/* SCANNING BEAUREAU SERVICES */}
-      <section className="py-16 px-30 justify-center">
-        <div className="max-w-8xl mx-auto">
+      <section className="py-16 px-10 w-[93%] mx-auto border border-green-500">
+        <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
@@ -260,11 +266,11 @@ management and GIS, we bring the right technology to every challenge." />
                 Key Benefits:
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-7">
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>High-volume document scanning</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>Metadata extraction & indexing</h3>
                 </div>
@@ -276,18 +282,18 @@ management and GIS, we bring the right technology to every challenge." />
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>Data capture & indexing</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>Multiple format support</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>High-volume document scanning</h3>
                 </div>
               </div>
-              <button className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
+              <Link href="/services/scanning-services" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
-              </button>
+              </Link>
             </div>
             <div>
               <img
@@ -301,7 +307,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DIGITAL TRANSFORMATION */}
-      <section className="py-16 px-30 justify-center">
+      <section className="py-16 px-10 w-[93%] mx-auto border border-yellow-500">
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
@@ -313,9 +319,6 @@ management and GIS, we bring the right technology to every challenge." />
             </div>
             <div>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
-                {/* <span className="text-xl text-red-400">
-                  &lt;/&gt;
-                </span> */}
                 <img src="images/scanning-icon.jpg" alt="" />
               </div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -328,34 +331,34 @@ management and GIS, we bring the right technology to every challenge." />
                 Key Benefits:
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 mb-7">
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>Process automation & optimization</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>Business workflow digitization</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>System integration & modernization</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>Data-driven decision makin</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>Cloud adoption strategies</h3>
                 </div>
-                <div className='flex'>
+                <div className='flex items-start'>
                   <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-gray-500 text-sm px-2'>Scalable technology solutions</h3>
                 </div>
               </div>
-              <button className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
+              <Link href="/services/digital-transformation" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>

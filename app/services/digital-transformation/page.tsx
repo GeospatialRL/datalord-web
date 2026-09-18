@@ -1,105 +1,88 @@
 import React from 'react'
-import Link from "next/link";
+import Link from 'next/link'
 import Banner2 from '../../components/Banner2'
 
-export default function SoftwareDev() {
+export default function portalManagement() {
     return (
         <>
             <Banner2
-                bannerDescription="Services/Software-development"
-                bannerTitle="Software Development"
+                bannerDescription=" Services/Digital Transformation "
+                bannerTitle="Digital Transformation"
             />
             <section>
                 <div className='w-[85%] mx-auto my-10'>
-                    <h2 className='text-xl font-bold  mb-4'>
-                        DataLord Technologies: Leading Software Development
-                        Company in Lagos, Nigeria
+                    <h2 className='text-xl font-bold text-[#0D1B2A] mb-4'>
+                        DataLord Technologies: Driving Digital Transformation for Organisations in Lagos
                     </h2>
                     <p className='text-gray-500 text-sm leading-relaxed mb-4'>
-                        At DataLord Technologies, we specialize in designing and
-                        developing customized software solutions to meet the unique
-                        needs of businesses across various industries. Whether
-                        you're a startup looking for a scalable solution or an
-                        enterprise in need of complex system integrations, we ensure
-                        that our projects align with your budget and
-                        timeline—without ever compromising on quality.
-                    </p>
-                    <p className='text-gray-500 text-sm leading-relaxed'>
-                        Moreover, our team of highly skilled developers is proficient
-                        in the latest programming languages, frameworks, and
-                        cutting-edge technologies. As a result, we consistently
-                        deliver top-tier software solutions tailored to businesses of
-                        all sizes. From desktop and mobile applications to
-                        cloud-based systems and AI-powered innovations, we help
-                        businesses stay ahead in today's fast-paced digital
-                        landscape.
+                        DataLord Technologies is a premier document scanning company and trusted scanning bureau in Nigeria, known for providing secure and reliable services to both public and private organizations. We specialize in transforming physical documents into high-quality digital formats, ensuring efficiency, accessibility, and security for all your document management needs. Our onsite storage facilities and advanced scanning technologies set us apart as industry leaders in document digitization.
                     </p>
                 </div>
             </section>
 
             <section className='border-y border-gray-200 py-6 mb-8'>
                 <div className='w-[85%] mx-auto flex items-center 
-                                justify-between flex-wrap gap-6'>
+                                justify-between gap-6'>
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-10'>100%</p>
+                        <p className='text-red-500 text-2xl font-bold pl-20'>
+                            50%
+                        </p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Client satisfaction rate
+                            Reduction in manual processing time
+                        </p>
+                    </div>
+                    <div>
+                        <p className='text-red-500 text-2xl font-bold pl-15'>
+                            60%
+                        </p>
+                        <p className='text-gray-500 text-sm mt-1'>
+                            Reduction in operational costs
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-5'>
-                            End-to-End
+                        <p className='text-red-500 text-2xl font-bold pl-15'>
+                            3x
                         </p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Complete solution delivery
+                            Increase in team productivity
                         </p>
                     </div>
 
                     <div>
-                        <p className='text-red-500 text-2xl font-bold pl-5'>
-                            All Platforms
-                        </p>
+                        <p className='text-red-500 text-2xl font-bold pl-20'>AI + IoT</p>
                         <p className='text-gray-500 text-sm mt-1'>
-                            Web, mobile, cloud, desktop
-                        </p>
-                    </div>
-
-                    <div>
-                        <p className='text-red-500 text-2xl font-bold pl-15'>Agile</p>
-                        <p className='text-gray-500 text-sm mt-1'>
-                            Iterative development approach
+                            Intelligent systems for smarter operations
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/*  Wrapping div element */}
             <div className="flex gap-10 w-[85%] mx-auto mb-16">
-                {/*  LEFT side */}
                 <div className="flex flex-col w-[68%]">
-                    {/* Services section 0ooo*/}
+                    {/* SERVICES SIDE  */}
                     <section className=" mb-10 ">
+                        <h2 className="text-2xl font-bold text-[#0D1B2A] mb-6">
+                            Services
+                        </h2>
                         <div className="flex mb-5">
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Custom Application Development
+                                    Re-Invention of Products & Services
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Fully tailored software built from the ground up
-                                    to address specific business challenges.
+                                    Enhancing your existing offerings with advanced digital tools to keep your business relevant & competitive.
                                 </p>
                             </div>
 
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Mobile App Development
+                                    Automation of Manual Processes
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Cross-platform and native applications for iOS
-                                    and Android with intuitive UX.
+                                    Automated workflows that eliminate inefficiencies, reduce human error, and enable faster, more accurate operations.
                                 </p>
                             </div>
 
@@ -107,72 +90,66 @@ export default function SoftwareDev() {
 
                         <div className="flex mb-5">
                             <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Enterprise Software Solutions
+                                    Data-Driven Decision-Making
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Scalable, secure enterprise-grade systems
-                                    designed to grow alongside your organisation.
+                                    Advanced analytics, AI, and machine learning to help organisations make precise, informed decisions that drive success.
                                 </p>
                             </div>
-
                             <div className="w-1/2 px-6 py-6 border-l border-red-500 ">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    API Development & Integration
+                                    Adoption of Emerging Technologies
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Seamless integration between your existing tools,
-                                    third-party platforms & new systems.
+                                    Transitioning businesses to Cloud, AI, and IoT,  for smarter operations, better customer experiences, and real-time intelligence.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="flex">
+                        <div className="flex mb-5">
                             <div className="w-1/2 border-l border-red-400 
                                             px-6 py-6">
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2">
-                                    Legal System Modernisation
+                                    Legacy System Modernisation
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We evaluate and upgrade outdated systems,
-                                    restructuring & migrating to modern stacks.
+                                    We evaluate, restructure, and upgrade outdated systems to ensure seamless integration with modern solutions.
                                 </p>
                             </div>
-
-                            <div className="w-1/2 px-6 py-6 border-l border-red-400">
-                                <p className="font-semibold  
+                            <div className="w-1/2 px-6 py-6 border-l border-red-500">
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-2 ">
-                                    Agile Methodology
+                                    Training & Change Management
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Iterative sprints with continuous client
-                                    involvement, ensuring proper delivery.
+                                    Comprehensive training and support that empowers your people to confidently embrace new tools and workflows.
                                 </p>
                             </div>
                         </div>
                     </section>
 
+                    {/* Our Process */}
                     <section>
-                        <h2 className="text-2xl font-bold  mb-6">
-                            Our Process
+                        <h2 className="text-2xl font-bold text-[#0D1B2A] mb-6">
+                            What we offer
                         </h2>
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 01
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Discovery & Requirements
+                                    Holistic Approach
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We conduct detailed assessments to understand
-                                    your needs, goals & constraints.
+                                    We focus on both technological upgrades and the cultural shift required for successful digital transformation.
                                 </p>
                             </div>
                         </div>
@@ -180,17 +157,16 @@ export default function SoftwareDev() {
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 02
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Design & Architecture
+                                    Customized Solutions
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Our experts craft user-centric designs and robust
-                                    system architecture tailored to your use case.
+                                    Each transformation strategy is tailored to the unique needs and goals of the client.
                                 </p>
                             </div>
                         </div>
@@ -198,142 +174,137 @@ export default function SoftwareDev() {
                         <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 03
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Development & Testing
+                                    Future-Ready Strategies
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    Leveraging cutting-edge tools, we build and
-                                    rigorously test your application at every stage.
+                                    We implement scalable solutions that allow businesses to adapt and thrive in evolving markets.
                                 </p>
                             </div>
                         </div>
 
                         <div className="flex items-start gap-5 py-5">
                             <span className="text-red-500 font-bold text-sm 
-                                             w-8 mt-0.5">
+                                             w-8  mt-0.5">
                                 04
                             </span>
                             <div>
-                                <p className="font-semibold  
+                                <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
-                                    Deployment & Support
+                                    Commitment to Quality
                                 </p>
                                 <p className="text-gray-500 text-xs leading-relaxed">
-                                    We handle hosting & provide ongoing maintenance,
-                                    updates & training post-launch.
+                                    Our team ensures that all new and existing systems align with industry best practices and organizational objectives.
                                 </p>
                             </div>
                         </div>
                     </section>
                 </div>
 
-                <div className="w-[32%] flex flex-col gap-6 pt-1">
-                    <div className="bg-gray-50 rounded-sm p-5">
-                        <h4 className="text-red-500 font-bold text-xs mb-4">
-                            TECHNOLOGIES
+                {/*  RIGHT SIDE 0ooooo */}
+                <div className="w-[32%] flex flex-col gap-6 pt-5">
+                    <div className="bg-gray-50 rounded-sm p-6 mt-15">
+                        <h4 className="text-red-500 font-bold text-xs 
+                                       tracking-widest uppercase mb-4">
+                            TECHNOLOGIES WE LEVERAGE
                         </h4>
                         <ul className="space-y-2.5">
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Frontend: React, Vue
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Cloud (AWS, Azure, GCP)
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Backend: .NET, Node.js
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Artificial Intelligence & ML
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Mobile: React Native, Flutter
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Internet of Things (IoT)
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Database: SQL Server, MongoDB
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Robotic Process Automation
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Cloud: Azure, AWS
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                Business Intelligence Tools
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                DevOps: CI/CD, Docker
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                API & System Integration
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                AI/ML: TensorFlow, OpenAI
-                            </li>
-                            <li className="flex items-center gap-2 
-                                           text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
-                                Architecture: Microservices
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
+                                DevOps & CI/CD Pipelines
                             </li>
                         </ul>
                     </div>
 
                     <div className="bg-gray-50 rounded-sm p-6">
-                        <h4 className="text-red-500 font-bold text-xs mb-4">
-                            INDUSTRIES SERVED
+                        <h4 className="text-red-500 font-bold text-xs 
+                                       tracking-widest uppercase mb-4">
+                            Industries Served
                         </h4>
                         <ul className="space-y-2.5">
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Government & Public Sector
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Banking & Finance
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Healthcare
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Legal & Judiciary
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Education
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Telecoms and Manufacturing
                             </li>
                             <li className="flex items-center gap-2 
                                            text-xs text-gray-600">
-                                <h4 className="w-1.5 h-1.5 rounded-full 
-                                                 bg-red-400" />
+                                <span className="w-1.5 h-1.5 rounded-full 
+                                                 bg-red-400 " />
                                 Information & Technology
                             </li>
                         </ul>
@@ -341,26 +312,24 @@ export default function SoftwareDev() {
                 </div>
             </div>
 
-            <section>
-                <div className="w-[85%] mx-auto mb-5">
-                    <h2 className="text-xl font-bold  mb-8">
+            <section className=" mb-5 ">
+                <div className="w-[85%] mx-auto">
+                    <h2 className="text-xl font-bold text-[#0D1B2A] mb-8">
                         Related Services
                     </h2>
                     <div className="flex gap-6">
                         <div className="flex-1 border border-gray-200 
                                         rounded-lg p-6">
                             <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
-                                <img src="/images/dms-icon.jpg" alt="" />
+                                <img src="/images/document-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
                                 Document Management System
                             </p>
                             <p className="text-gray-500 text-xs leading-relaxed 
                                           mb-4">
-                                Comprehensive document management systems to
-                                organise, secure, and streamline your document
-                                workflows.
+                                Comprehensive document management systems to organize, secure, and streamline your document workflows.
                             </p>
                             <Link
                                 href="/services/document-management"
@@ -370,19 +339,18 @@ export default function SoftwareDev() {
                                 Learn more →
                             </Link>
                         </div>
-                        <div className="flex-1 border border-gray-200 
-                                        rounded-lg p-6">
+
+                        <div className="flex-1 border border-gray-200 rounded-lg p-6">
                             <div className='mb-5 flex h-12 w-12 items-center justify-center rounded-lg '>
-                                <img src="/images/transformation-icon.jpg" alt="" />
+                                <img src="/images/dev-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
-                                Digital Transformation
+                                Software Development
                             </p>
                             <p className="text-gray-500 text-xs leading-relaxed 
                                           mb-4">
-                                We help organisations adopt modern systems and
-                                technologies to improve efficiency and drive growth.
+                                Custom software solutions built with cutting-edge technologies to meet your unique business requirements.
                             </p>
                             <Link
                                 href="/services/digital-transformation"
@@ -398,15 +366,13 @@ export default function SoftwareDev() {
                             <div className='mb-5 flex h-12 w-12 items-center justify-center rounded-lg '>
                                 <img src="/images/portal-icon.jpg" alt="" />
                             </div>
-                            <p className="font-semibold  
+                            <p className="font-semibold text-[#0D1B2A] 
                                           text-sm mb-2">
                                 Portal Management Systems
                             </p>
                             <p className="text-gray-500 text-xs leading-relaxed 
                                           mb-4">
-                                Scalable cloud infrastructure and enterprise portals
-                                designed for performance, security, and user
-                                experience.
+                                Scalable cloud infrastructure and enterprise portals designed for performance, security, and user experience.
                             </p>
                             <Link
                                 href="/services/portal-management"

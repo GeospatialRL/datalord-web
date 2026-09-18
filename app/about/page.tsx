@@ -109,7 +109,7 @@ export default function About() {
                     </div>
                 </div>
 
-                {/* // Industry Expertise Section */}
+                {/* // OUR Industry Expertise Section */}
                 <section className="bg-gray-100">
                     <div className="flex flex-col items-center justify-center text-left py-10 px-4 sm:px-6 lg:px-8 ">
                         <h2 className="mb-5 text-3xl font-bold">
@@ -123,12 +123,14 @@ export default function About() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 p-3 lg:p-10">
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/Finance-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Finance and Banking</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Secure, compliant solutions for financial institutions and banking operations.
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/Finance-icon.jpg" alt="" className='mb-2'/>
                             <h3 className="mb-4 text-xl font-semibold">Healthcare</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 HIPAA-compliant systems for hospitals,
@@ -136,6 +138,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/Ecommerce-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">E-commerce</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Scalable platforms for online stores and retail management.
@@ -145,6 +148,7 @@ export default function About() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 p-3 lg:p-10">
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/logistics-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Logistics and Supply Chain</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 End-to-end tracking and management
@@ -152,6 +156,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/government-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Government & Public Sector</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Robust enterprise solutions for government
@@ -159,6 +164,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/Estate-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Real Estate & Property Management</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Digital solutions for property management
@@ -169,6 +175,7 @@ export default function About() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 p-8 lg:p-10">
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/manufacturing-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Manufacturing & Industrial Automation</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Smart automation systems for modern
@@ -176,6 +183,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/telecom-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Telecommunication</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Advanced infrastructure solutions for
@@ -183,6 +191,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6">
+                            <img src="/images/transformation-icon.jpg" alt="" className='mb-2' />
                             <h3 className="mb-4 text-xl font-semibold">Energy & Utilities</h3>
                             <p className="text-gray-500 leading-relaxed">
                                 Smart grid and utility management systems
