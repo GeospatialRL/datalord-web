@@ -4,40 +4,6 @@ import { services, stats, whyPoints, projects, aboutInfo } from "../data/content
 
 export default function Home() {
 
-  const serviceCard = [
-    {
-    number: "01",
-    title: "Software Development",
-    details: "Custom destop, mobile and web solutions built to spec - with experienced developers who don't stop until you're satisfied."
-  },
-  {
-    number: "02",
-    title: "Document Management System",
-    details: "Multi-user DMS solutions that help businesses securely organise, store, and retrieve critical content at scale."
-  },
-   {
-    number: "03",
-    title: "GIS & Remote Sensing",
-    details: "Spatial data capture, analysis and visualisation — transforming geographic intelligence into real decisions."
-  },
-   {
-    number: "04",
-    title: "Portal Management",
-    details: "Integrated enterprise portals and court case management systems built on global best practices."
-  },
-   {
-    number: "05",
-    title: "Scanning Bureau",
-    details: "Nigeria's premier document digitisation partner — over 3 million images scanned monthly with full quality assurance."
-  },
-   {
-    number: "06",
-    title: "Scanning Bureau",
-    details: "Nigeria's premier document digitisation partner — over 3 million images scanned monthly with full quality assurance."
-  },
-
-
-]
   return (
     <div className="flex flex-col">
       <Hero />
