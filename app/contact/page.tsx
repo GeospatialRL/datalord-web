@@ -8,10 +8,10 @@ export default function contact() {
         bannerTitle="Contact"
         bannerDescription="Ready to start a project or just want to talk? We're at Allen Avenue, Ikeja Lagos , or drop us a message and we'll get back to you."
       />
-      <section className="flex flex-row mx-auto gap-10 justify-between py-5 my-5 max-w-[85%]">
-        <div className="p-5 w-[45%]">
+      <section className="flex md:flex-row flex-col mx-auto gap-10 justify-between py-5 my-5 border w-[85%] ">
+        <div className="p-5 border w-full md:w-[50%] ">
           <h5 className="mb-2 font-bold text-[#616977]">CONTACT US</h5>
-          <h1 className="text-3xl text-[#2e3950] font-bold w-[50%] my-7">
+          <h1 className="text-lg md:text-3xl text-[#2e3950] font-bold w-[50%] my-7">
             We would love to hear from you!
           </h1>
           <h6 className="font-bold text-sm mb-3">Customer support</h6>
@@ -27,9 +27,9 @@ export default function contact() {
             2, Wemi akinsola close, allen avenue Ikeja <br /> Lagos, Nigeria
           </p>
         </div>
-        <div className="py-5 px-6 w-[35%] shadow-lg">
+        <div className="px-6 w-full md:w-[45%] shadow-lg">
           {/* <div > */}
-          <form className="">
+          <form className="w-full border p-5">
             <div className="">
               <h3 className="font-bold mb-1">Questions or feedback?</h3>
               <p className="text-xs text-[#616977]">
@@ -37,24 +37,25 @@ export default function contact() {
                 within 24 hours!
               </p>
             </div>
-            <div className="my-2 w-full">
+            {/* inputs section */}
+            {/* <div className="my-2 w-full border"> */}
               <div className="flex my-2 gap-5 ">
                 <label className="flex flex-col w-full">
                   <span className="text-xs text-[#616977] font-bold mb-1">
                     First name
                   </span>
                   <input
-                    className="bg-[#F8F8F8] p-1.5 rounded-lg"
+                    className="bg-[#F8F8F8] w-full p-1.5 rounded-lg"
                     type="text"
                     placeholder=""
                   />
                 </label>
-                <label className="flex flex-col">
+                <label className="flex flex-col w-full">
                   <span className="text-xs text-[#616977] font-bold mb-1">
                     Last name
                   </span>
                   <input
-                    className="bg-[#F8F8F8] p-1.5 rounded-lg"
+                    className="bg-[#F8F8F8] w-full p-1.5 rounded-lg"
                     type="text"
                   />
                 </label>
@@ -85,9 +86,9 @@ export default function contact() {
                 >
                   Phone Number
                 </label>
-                <div className="flex gap-2 w-full">
-                  <PhoneCode />
-                </div>
+                {/* <div className="flex gap-2 w-full"> */}
+                  <PhoneCode  />
+                {/* </div> */}
               </div>
               <div className="flex flex-col gap-2 my-2">
                 <label>
@@ -101,7 +102,7 @@ export default function contact() {
                 </label>
               </div>
               <div className="py-2">
-                <button className="bg-[#DC2626] w-full text-white py-2 cursor-pointer rounded-lg text-sm">
+                <button className="bg-primary w-full text-white py-2 cursor-pointer rounded-lg text-sm">
                   Submit
                 </button>
               </div>
@@ -115,7 +116,7 @@ export default function contact() {
                   messaging.
                 </p>
               </div>
-            </div>
+            {/* </div> */}
           </form>
           {/* </div> */}
         </div>
