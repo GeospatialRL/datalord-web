@@ -151,7 +151,7 @@ export default function docManagement ()  {
                                   <p className="text-gray-500 text-xs leading-relaxed">
                                       We assess your current document workflows, identify bottlenecks, and define system requirements.
                                   </p>
-                              </div>
+                              </div>a
                           </div>
 
                           <div className="flex items-start gap-5 py-5 
