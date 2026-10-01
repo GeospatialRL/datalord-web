@@ -145,7 +145,7 @@ export default function Home() {
             <div>
               <p className="text-sm font-semibold tracking-wide text-[#F43838]">
                 ABOUT US
-              </p>
+              </p>np
               <h2 className="mt-3 text-4xl font-bold text-[#0A0A0A] sm:text-[42px]">
                 Lagos-Based. Globally Capable.
               </h2>

@@ -9,7 +9,7 @@ export default function Services() {
 management and GIS, we bring the right technology to every challenge." />
 
       {/* SOFTWARE DEVELOPMENT  */}
-      <section className="py-10 px-10 W-[93%] mx-auto border">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -32,11 +32,11 @@ management and GIS, we bring the right technology to every challenge." />
                   <h3 className='text-sm text-gray-500 px-2'>Custom application development</h3>
                 </div>
                 <div className='flex'>
-                  <img src="/images/check-icon.jpg" alt=""  />
+                  <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500 px-2'>Enterprise software solutions</h3>
                 </div>
                 <div className='flex space-x-2'>
-                  <img src="/images/check-icon.jpg" alt=""  />
+                  <img src="/images/check-icon.jpg" alt="" />
                   <h3 className='text-sm text-gray-500'>Mobile app development</h3>
                 </div>
                 <div className='flex'>
@@ -59,7 +59,7 @@ management and GIS, we bring the right technology to every challenge." />
             </div>
 
 
-            
+
             <div>
               <img
                 src="/images/laptop.jpg"
@@ -72,7 +72,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DOCUMENT MANAGEMENT SYSTEM */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-red-500">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -129,10 +129,10 @@ management and GIS, we bring the right technology to every challenge." />
           </div>
         </div>
       </section>
-    
+
 
       {/* GIS & REMOTE CONSULTING */}
-      <section className="py-16 px-10 w-[93%] mx-auto border ">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -190,7 +190,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* PORTAL MANAGEMENT SYSTEM  */}
-      <section className="py-16 px- w-[93%] mx-auto border border-blue-500">
+      <section className="py-16 px- w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
@@ -248,7 +248,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* SCANNING BEAUREAU SERVICES */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-green-500">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
@@ -307,7 +307,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DIGITAL TRANSFORMATION */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-yellow-500">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
