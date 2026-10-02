@@ -146,6 +146,7 @@ export default function docManagement() {
                                 <div>
                                     <p className="font-semibold text-[#0D1B2A] 
                                               text-sm mb-1">
+<<<<<<< HEAD
                                         Needs Analysis
                                     </p>
                                     <p className="text-gray-500 text-xs leading-relaxed">
@@ -153,6 +154,15 @@ export default function docManagement() {
                                     </p>
                                 </div>
                             </div>
+=======
+                                      Needs Analysis
+                                  </p>
+                                  <p className="text-gray-500 text-xs leading-relaxed">
+                                      We assess your current document workflows, identify bottlenecks, and define system requirements.
+                                  </p>
+                              </div>a
+                          </div>
+>>>>>>> 4224e804a3ce6591628f89ab169290689d1ff3b1
 
                             <div className="flex items-start gap-5 py-5 
                                         border-b border-gray-100">
