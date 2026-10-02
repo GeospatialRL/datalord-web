@@ -10,7 +10,7 @@ export default function portalManagement() {
                 bannerTitle="Scanning Bureau Services"
             />
             <section>
-                <div className='w-[85%] mx-auto my-10'>
+                <div className='w-[90%] mx-auto my-10'>
                     <h2 className='text-xl font-bold text-[#0D1B2A] mb-4'>
                         DataLord Technologies: Professional Document Scanning and Digitisation Services
                     </h2>
@@ -21,7 +21,7 @@ export default function portalManagement() {
             </section>
 
             <section className='border-y border-gray-200 py-6 mb-8'>
-                <div className='w-[85%] mx-auto flex items-center 
+                <div className='w-[90%] mx-auto flex items-center 
                                 justify-between gap-6'>
                     <div>
                         <p className='text-red-500 text-2xl font-bold pl-20'>
@@ -333,7 +333,7 @@ export default function portalManagement() {
                 </div>
             </div>
 
-            <section className=" mb-5 ">
+            <section className=" mb-10 ">
                 <div className="w-[90%] mx-auto">
                     <h2 className="text-xl font-bold text-[#0D1B2A] mb-8">
                         Related Services

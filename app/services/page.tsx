@@ -9,7 +9,7 @@ export default function Services() {
 management and GIS, we bring the right technology to every challenge." />
 
       {/* SOFTWARE DEVELOPMENT  */}
-      <section className="py-10 px-10 W-[93%] mx-auto border">
+      <section className="py-10 px-10 W-[93%] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -72,7 +72,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DOCUMENT MANAGEMENT SYSTEM */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-red-500">
+      <section className="py-16 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -132,7 +132,7 @@ management and GIS, we bring the right technology to every challenge." />
     
 
       {/* GIS & REMOTE CONSULTING */}
-      <section className="py-16 px-10 w-[93%] mx-auto border ">
+      <section className="py-16 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
             <div>
@@ -190,7 +190,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* PORTAL MANAGEMENT SYSTEM  */}
-      <section className="py-16 px- w-[93%] mx-auto border border-blue-500">
+      <section className="py-16 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
@@ -248,7 +248,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* SCANNING BEAUREAU SERVICES */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-green-500">
+      <section className="py-16 w-[93%] mx-auto">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>
@@ -307,7 +307,7 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* DIGITAL TRANSFORMATION */}
-      <section className="py-16 px-10 w-[93%] mx-auto border border-yellow-500">
+      <section className="py-16 w-[93%] mx-auto">
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
             <div>

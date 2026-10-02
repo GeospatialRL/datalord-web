@@ -8,7 +8,7 @@ export default function About() {
         <>
             <Banner bannerTitle="About Us" bannerDescription="We're a leading software development and IT services company driven by one goal,  enhancing business productivity across every sector we touch.." />
             <section className='bg-white text-black'>
-                <div className='flex border-red-500 border-2 h-min-[50%] mx-auto px-10 bg-white py-10 gap-10 text-black'>
+                <div className='flex h-min-[50%] mx-auto px-10 bg-gray-100 py-10 gap-10 text-black '>
                     <div className='w-1/2 w-full lg:w-1/2 text-justify lg:text-justify sm:text-justify'>
                         <h2 className='text-3xl font-bold mb-5'>Our Story</h2>
                         <p className='text-gray-600 leading-relaxed mb-3 text-10xl'>
@@ -210,7 +210,7 @@ export default function About() {
                             </h3>
                         </div>
 
-                        <div className='flex border-2 h-min-[50%] mx-auto px-10 bg-white py-10 gap-10 text-black'>
+                        <div className='flex h-min-[50%] mx-auto px-10 bg-white py-10 gap-10 text-black'>
                             <div className='max-w-[660px] max-h-[618px] overflow-hidden rounded-xl shadow-lg'>
                                 <img src="/images/Meet.jpg" alt="Logo" className='w-full h-full rounded-xl object-cover object-center shadow-lg' />
 

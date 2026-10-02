@@ -10,7 +10,7 @@ export default function portalManagement() {
               bannerTitle="Portal Management Systems"
           />
           <section>
-              <div className='w-[85%] mx-auto my-10'>
+              <div className='w-[90%] mx-auto my-10'>
                   <h2 className='text-xl font-bold text-[#0D1B2A] mb-4'>
                       DataLord Technologies: Building Scalable Enterprise Portals for Organisations 
                   </h2>
