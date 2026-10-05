@@ -73,18 +73,11 @@ management and GIS, we bring the right technology to every challenge." />
 
       {/* DOCUMENT MANAGEMENT SYSTEM */}
       <section className="py-16 px-10 w-[93%] mx-auto">
-        <div className="">
+        <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-            <div>
-              <img
-                src="/images/dms.jpg"
-                alt="Software Development"
-                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
-              />
-            </div>
-            <div>
+            <div className='md:order-2'>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
-                <img src="images/document-icon.jpg" alt="" />
+                <img src="images/document-icon.jpg" alt=""/>
               </div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Document Management System
@@ -125,6 +118,15 @@ management and GIS, we bring the right technology to every challenge." />
                text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
               </Link >
+            </div>
+
+            <div className='md:order-1
+            '>
+              <img
+                src="/images/dms.jpg"
+                alt="Software Development"
+                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
+              />
             </div>
           </div>
         </div>
@@ -190,17 +192,10 @@ management and GIS, we bring the right technology to every challenge." />
       </section>
 
       {/* PORTAL MANAGEMENT SYSTEM  */}
-      <section className="py-16 px- w-[93%] mx-auto">
+      <section className="py-16 px-10 w-[93%] mx-auto">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
-            <div>
-              <img
-                src="/images/portal-image.jpg"
-                alt="Software Development"
-                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
-              />
-            </div>
-            <div>
+            <div className='md:order-1'>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
                 <img src="images/portal-icon.jpg" alt="" />
               </div>
@@ -242,6 +237,13 @@ management and GIS, we bring the right technology to every challenge." />
               <Link href="/services/portal-management" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
               </Link>
+            </div>
+            <div >
+              <img
+                src="/images/portal-image.jpg"
+                alt="Software Development"
+                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
+              />
             </div>
           </div>
         </div>
@@ -295,13 +297,14 @@ management and GIS, we bring the right technology to every challenge." />
                 Learn More
               </Link>
             </div>
-            <div>
+            <div className='md:order-1'>
               <img
                 src="/images/scanning-image.jpg"
                 alt="Software Development"
                 className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
               />
             </div>
+            
           </div>
         </div>
       </section>
@@ -310,14 +313,7 @@ management and GIS, we bring the right technology to every challenge." />
       <section className="py-16 px-10 w-[93%] mx-auto">
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
-            <div>
-              <img
-                src="/images/digital-image.jpg"
-                alt="Software Development"
-                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
-              />
-            </div>
-            <div>
+            <div className='md:order-1'>
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg ">
                 <img src="images/scanning-icon.jpg" alt="" />
               </div>
@@ -359,6 +355,13 @@ management and GIS, we bring the right technology to every challenge." />
               <Link href="/services/digital-transformation" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-md transition">
                 Learn More
               </Link>
+            </div>
+            <div>
+              <img
+                src="/images/digital-image.jpg"
+                alt="Software Development"
+                className="w-[602px] h-[454px] object-cover rounded-xl shadow-md"
+              />
             </div>
           </div>
         </div>
